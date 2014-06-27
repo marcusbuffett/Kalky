@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C18668481941223E004EE1FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C18668471941223E004EE1FA /* main.m */; };
+		C186684B1941223E004EE1FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C186684A1941223E004EE1FA /* AppDelegate.m */; };
+		C186684E1941223E004EE1FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C186684D1941223E004EE1FA /* ViewController.m */; };
+		C18668511941223E004EE1FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C186684F1941223E004EE1FA /* Main.storyboard */; };
+		C18668531941223E004EE1FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18668521941223E004EE1FA /* Images.xcassets */; };
+		C186685F1941223E004EE1FA /* KalkyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C186685E1941223E004EE1FA /* KalkyTests.m */; };
+		C1A05C74194E730800B3F625 /* portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A05C73194E730800B3F625 /* portrait.png */; };
+		C1B80524194122D600887F99 /* K_View.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B80514194122D600887F99 /* K_View.m */; };
+		C1B80525194122D600887F99 /* K_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B80515194122D600887F99 /* K_ViewController.m */; };
+		C1B80526194122D600887F99 /* K_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B80516194122D600887F99 /* K_AppDelegate.m */; };
+		C1B80527194122D600887F99 /* PostfixCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B80517194122D600887F99 /* PostfixCalculator.m */; };
+		C1B80528194122D600887F99 /* InfixToPostfix.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B80518194122D600887F99 /* InfixToPostfix.m */; };
+		C1B80529194122D600887F99 /* SimpleStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B8051A194122D600887F99 /* SimpleStack.m */; };
+		C1B8052A194122D600887F99 /* K_SavedResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B8051B194122D600887F99 /* K_SavedResultView.m */; };
+		C1B8052B194122D600887F99 /* InfixCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B80520194122D600887F99 /* InfixCalculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C18668591941223E004EE1FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C186683A1941223E004EE1FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18668411941223E004EE1FA;
+			remoteInfo = Kalky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C18668421941223E004EE1FA /* Kalky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kalky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18668461941223E004EE1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18668471941223E004EE1FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C18668491941223E004EE1FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C186684A1941223E004EE1FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C186684C1941223E004EE1FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C186684D1941223E004EE1FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C18668501941223E004EE1FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C18668521941223E004EE1FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C18668581941223E004EE1FA /* KalkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C186685D1941223E004EE1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C186685E1941223E004EE1FA /* KalkyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KalkyTests.m; sourceTree = "<group>"; };
+		C1A05C73194E730800B3F625 /* portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portrait.png; sourceTree = "<group>"; };
+		C1B80514194122D600887F99 /* K_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K_View.m; sourceTree = "<group>"; };
+		C1B80515194122D600887F99 /* K_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K_ViewController.m; sourceTree = "<group>"; };
+		C1B80516194122D600887F99 /* K_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K_AppDelegate.m; sourceTree = "<group>"; };
+		C1B80517194122D600887F99 /* PostfixCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostfixCalculator.m; sourceTree = "<group>"; };
+		C1B80518194122D600887F99 /* InfixToPostfix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfixToPostfix.m; sourceTree = "<group>"; };
+		C1B80519194122D600887F99 /* SimpleStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleStack.h; sourceTree = "<group>"; };
+		C1B8051A194122D600887F99 /* SimpleStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleStack.m; sourceTree = "<group>"; };
+		C1B8051B194122D600887F99 /* K_SavedResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K_SavedResultView.m; sourceTree = "<group>"; };
+		C1B8051C194122D600887F99 /* K_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K_AppDelegate.h; sourceTree = "<group>"; };
+		C1B8051D194122D600887F99 /* K_SavedResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K_SavedResultView.h; sourceTree = "<group>"; };
+		C1B8051E194122D600887F99 /* K_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K_View.h; sourceTree = "<group>"; };
+		C1B8051F194122D600887F99 /* K_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K_ViewController.h; sourceTree = "<group>"; };
+		C1B80520194122D600887F99 /* InfixCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfixCalculator.m; sourceTree = "<group>"; };
+		C1B80521194122D600887F99 /* PostfixCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostfixCalculator.h; sourceTree = "<group>"; };
+		C1B80522194122D600887F99 /* InfixCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfixCalculator.h; sourceTree = "<group>"; };
+		C1B80523194122D600887F99 /* InfixToPostfix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfixToPostfix.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C186683F1941223E004EE1FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18668551941223E004EE1FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C18668391941223E004EE1FA = {
+			isa = PBXGroup;
+			children = (
+				C18668441941223E004EE1FA /* Kalky */,
+				C186685B1941223E004EE1FA /* KalkyTests */,
+				C18668431941223E004EE1FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C18668431941223E004EE1FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C18668421941223E004EE1FA /* Kalky.app */,
+				C18668581941223E004EE1FA /* KalkyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18668441941223E004EE1FA /* Kalky */ = {
+			isa = PBXGroup;
+			children = (
+				C1B80514194122D600887F99 /* K_View.m */,
+				C1B80515194122D600887F99 /* K_ViewController.m */,
+				C1B80516194122D600887F99 /* K_AppDelegate.m */,
+				C1B80517194122D600887F99 /* PostfixCalculator.m */,
+				C1B80518194122D600887F99 /* InfixToPostfix.m */,
+				C1B80519194122D600887F99 /* SimpleStack.h */,
+				C1B8051A194122D600887F99 /* SimpleStack.m */,
+				C1B8051B194122D600887F99 /* K_SavedResultView.m */,
+				C1B8051C194122D600887F99 /* K_AppDelegate.h */,
+				C1B8051D194122D600887F99 /* K_SavedResultView.h */,
+				C1B8051E194122D600887F99 /* K_View.h */,
+				C1B8051F194122D600887F99 /* K_ViewController.h */,
+				C1B80520194122D600887F99 /* InfixCalculator.m */,
+				C1B80521194122D600887F99 /* PostfixCalculator.h */,
+				C1B80522194122D600887F99 /* InfixCalculator.h */,
+				C1B80523194122D600887F99 /* InfixToPostfix.h */,
+				C1A05C73194E730800B3F625 /* portrait.png */,
+				C18668491941223E004EE1FA /* AppDelegate.h */,
+				C186684A1941223E004EE1FA /* AppDelegate.m */,
+				C186684C1941223E004EE1FA /* ViewController.h */,
+				C186684D1941223E004EE1FA /* ViewController.m */,
+				C186684F1941223E004EE1FA /* Main.storyboard */,
+				C18668521941223E004EE1FA /* Images.xcassets */,
+				C18668451941223E004EE1FA /* Supporting Files */,
+			);
+			path = Kalky;
+			sourceTree = "<group>";
+		};
+		C18668451941223E004EE1FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C18668461941223E004EE1FA /* Info.plist */,
+				C18668471941223E004EE1FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C186685B1941223E004EE1FA /* KalkyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C186685E1941223E004EE1FA /* KalkyTests.m */,
+				C186685C1941223E004EE1FA /* Supporting Files */,
+			);
+			path = KalkyTests;
+			sourceTree = "<group>";
+		};
+		C186685C1941223E004EE1FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C186685D1941223E004EE1FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C18668411941223E004EE1FA /* Kalky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18668621941223E004EE1FA /* Build configuration list for PBXNativeTarget "Kalky" */;
+			buildPhases = (
+				C186683E1941223E004EE1FA /* Sources */,
+				C186683F1941223E004EE1FA /* Frameworks */,
+				C18668401941223E004EE1FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kalky;
+			productName = Kalky;
+			productReference = C18668421941223E004EE1FA /* Kalky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C18668571941223E004EE1FA /* KalkyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18668651941223E004EE1FA /* Build configuration list for PBXNativeTarget "KalkyTests" */;
+			buildPhases = (
+				C18668541941223E004EE1FA /* Sources */,
+				C18668551941223E004EE1FA /* Frameworks */,
+				C18668561941223E004EE1FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C186685A1941223E004EE1FA /* PBXTargetDependency */,
+			);
+			name = KalkyTests;
+			productName = KalkyTests;
+			productReference = C18668581941223E004EE1FA /* KalkyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C186683A1941223E004EE1FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Marcus Buffett";
+				TargetAttributes = {
+					C18668411941223E004EE1FA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C18668571941223E004EE1FA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C18668411941223E004EE1FA;
+					};
+				};
+			};
+			buildConfigurationList = C186683D1941223E004EE1FA /* Build configuration list for PBXProject "Kalky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C18668391941223E004EE1FA;
+			productRefGroup = C18668431941223E004EE1FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C18668411941223E004EE1FA /* Kalky */,
+				C18668571941223E004EE1FA /* KalkyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C18668401941223E004EE1FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A05C74194E730800B3F625 /* portrait.png in Resources */,
+				C18668511941223E004EE1FA /* Main.storyboard in Resources */,
+				C18668531941223E004EE1FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18668561941223E004EE1FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C186683E1941223E004EE1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B80526194122D600887F99 /* K_AppDelegate.m in Sources */,
+				C1B8052A194122D600887F99 /* K_SavedResultView.m in Sources */,
+				C1B8052B194122D600887F99 /* InfixCalculator.m in Sources */,
+				C1B80528194122D600887F99 /* InfixToPostfix.m in Sources */,
+				C1B80524194122D600887F99 /* K_View.m in Sources */,
+				C186684E1941223E004EE1FA /* ViewController.m in Sources */,
+				C186684B1941223E004EE1FA /* AppDelegate.m in Sources */,
+				C1B80525194122D600887F99 /* K_ViewController.m in Sources */,
+				C1B80527194122D600887F99 /* PostfixCalculator.m in Sources */,
+				C18668481941223E004EE1FA /* main.m in Sources */,
+				C1B80529194122D600887F99 /* SimpleStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18668541941223E004EE1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C186685F1941223E004EE1FA /* KalkyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C186685A1941223E004EE1FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18668411941223E004EE1FA /* Kalky */;
+			targetProxy = C18668591941223E004EE1FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C186684F1941223E004EE1FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18668501941223E004EE1FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C18668601941223E004EE1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C18668611941223E004EE1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C18668631941223E004EE1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Kalky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C18668641941223E004EE1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Kalky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C18668661941223E004EE1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kalky.app/Kalky";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KalkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C18668671941223E004EE1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kalky.app/Kalky";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KalkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C186683D1941223E004EE1FA /* Build configuration list for PBXProject "Kalky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18668601941223E004EE1FA /* Debug */,
+				C18668611941223E004EE1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18668621941223E004EE1FA /* Build configuration list for PBXNativeTarget "Kalky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18668631941223E004EE1FA /* Debug */,
+				C18668641941223E004EE1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18668651941223E004EE1FA /* Build configuration list for PBXNativeTarget "KalkyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18668661941223E004EE1FA /* Debug */,
+				C18668671941223E004EE1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C186683A1941223E004EE1FA /* Project object */;
+}
